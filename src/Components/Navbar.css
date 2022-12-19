@@ -1,0 +1,62 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    position: static;
+    width: 100%;
+    height: 20%;
+    z-index: 1;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    padding: 0 1em ;
+}
+.menu li a {
+    font-weight: 500;
+    font-size: 1.3em;
+}
+@media screen and ( max-width : 1084px ){
+    .menu{
+      flex-direction : column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      background-color: black;
+      position: absolute;
+      top:0;
+      left:-100%;
+      Z-index: -3;
+      transition: 0.3s;
+    }
+    .menu.active{
+      left :0%;
+    }
+    .menu li {
+      padding : 1rem 0;
+    }
+    .menu li a {
+      font-size: 2rem;
+    } 
+    .hamburger{
+      display: initial;
+      color: white;
+      position: absolute;
+      top :2em;
+      Right:1em;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    height: 20%;
+    z-index: 1;
+}
+    
+  }
