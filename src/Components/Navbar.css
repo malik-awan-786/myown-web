@@ -3,14 +3,22 @@
     justify-content: space-between;
     align-items: center;
     padding: 1em;
-    position: static;
+    position: sticky;
     width: 100%;
-    height: 20%;
-    z-index: 1;
+    height: 90px;
+    font-size: large;
 }
 .menu {
+  width: 100px;
     display: flex;
 }
+.men:hover{
+  
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+  }
+
+
 .menu li {
     padding: 0 1em ;
 }

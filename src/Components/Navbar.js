@@ -14,19 +14,19 @@ const Navbar = () => {
     <header
     className='header' >
         <h1> Portfolio</h1>
-        <ul className={  click ?  'menu active' : 'menu'}> 
+        <ul className={  click ?  'menu active' : 'menu'}>
         <li>
-       <Link to= "/Contact"> Contact</Link>
+        <Link to= "/" className='men'> Home</Link>
+        </li>  
+        <li>
+        <Link to= "/Project" className='men'> Project</Link>
         </li>
         <li>
-        <Link to= "/About"> About</Link>
+       <Link to= "/Contact" className='men'> Contact</Link>
         </li>
         <li>
-        <Link to= "/Project"> Project</Link>
+        <Link to= "/About" className='men'> About</Link>
         </li>
-        <li>
-        <Link to= "/"> Home</Link>
-        </li> 
         </ul>
         <div className="hamburger"  onClick={handleClick} >
           { click ?   (<FaTimes/>) : ( <FaBars/>) }
