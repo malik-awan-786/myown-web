@@ -1,7 +1,7 @@
 
 import './Dynamiccard.css';
 import React from 'react'
-import { NavLink , Link} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 const Dynamiccard = (props) => {
   return (
     <div className='project-card'>
@@ -10,7 +10,7 @@ const Dynamiccard = (props) => {
     <div className='pro-detail'>
         <p> {props.text }</p>
         <div className='pro-btns'>
-            <Link to=  {props.veiw} className="btn"> Veiw</Link>
+            <NavLink to=  {props.veiw} className="btn"> Veiw</NavLink>
             <NavLink to= " url.com" className="btn"> Source</NavLink>
         </div>
 </div>

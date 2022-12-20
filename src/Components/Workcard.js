@@ -25,7 +25,6 @@ const Workcard = () => {
             </div>  */}
 
         </div>
-      
     </div>
   )
 }

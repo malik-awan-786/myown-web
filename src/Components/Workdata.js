@@ -5,13 +5,13 @@ const Workdata= [
     {
         imgsrc : card1,
         title : " Ecomerese Website ",
-        text : " Ecomerese Website ",
+        text : " ",
         veiw: " https://ahfarmer.github.io/calculator/",
     },
 {
     imgsrc : card2,
     title : " Ecomerese Website ",
-    text : "wuioghjkvb,ghjkghj",
+    text : "",
     veiw : " https://www.youtube.com/watch?V=P8YuWEKTeu",
 },
 {
