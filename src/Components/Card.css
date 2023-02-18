@@ -36,22 +36,8 @@
     margin-left: 6.7rem;
 }
 
-.btn{
-    margin: 0.4rem;
-    padding: 12px 32px;
-    font-size: 1rem;
-    text-transform: uppercase;
-    background-color: yellow;
-    color: black;
-    border: 1px solid white;
+
    
-    cursor: pointer;
-   }
-   .btn:hover {
-    background-color: white;
-     opacity: 4rem;
-     color : black
-    }
 .btc{
     font-size: 4rem;
     font-weight: 600;

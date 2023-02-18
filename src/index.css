@@ -6,46 +6,16 @@
   font-family: 'Outfit', sans-serif;
  }
  body {
-  background-color: black;
+  background-color: #fbfbfb;
  }
  h1,h4,P,a {
-  color: white;
+  color: black;
   text-decoration: none;
  }
  ul{
   list-style-type: none;
  }
- .btn1{
-  margin: 0.4rem;
-  padding: 12px 32px;
-  font-size: 1rem;
-  text-transform: uppercase;
-  background-color: yellow;
-  color: black;
-  border: 1px solid white;
-  font-weight: 900;
-  cursor: pointer;
- }
- .btn-light {
-  background-color: transparent;
-  color:white;
-  padding: 12px 32px;
-  font-size: 1rem;
-  text-transform: uppercase;
-  border: 1px solid white;
-  font-weight: 600;
-  cursor: pointer;
- }
-.btn1:hover {
-background-color: white;
- opacity: 4rem;
- color : black
-}
-.btn-light:hover{
-  background-color: white;
-   color: black;
-  }
-
+ 
 
 
 

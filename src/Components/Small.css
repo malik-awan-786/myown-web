@@ -1,0 +1,236 @@
+.text{
+position: absolute;
+width: 466px;
+height: 330px;
+left: 122px;
+top: 184px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 85px;
+/* or 106% */
+
+color: #63AD01;
+}
+.h2{
+    /* WoundMend offers instant assessment of acute and chronic wounds. The state-of-the-art mobile application operates on Artificial Intelligence technology and helps you scan all sorts of rashes, wounds or pigments. */
+position: absolute;
+width: 472px;
+height: 194px;
+left: 125px;
+top: 576px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 35px;
+/* or 219% */
+letter-spacing: 0.03em;
+color: #777777;
+}
+
+   .btn1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+      margin: 0.4rem;
+      padding: 12px 32px;
+      font-size: 1rem;
+      text-transform: uppercase;
+      background-color: #63ad01;
+      color: black;
+      border: 1px solid white;
+      font-weight: 900;
+      cursor: pointer;
+     }
+     
+     .btn1:hover {
+      background-color: white;
+       opacity: 4rem;
+       color : black
+      }
+      .line{
+        /* Rectangle 7 */
+
+position: absolute;
+width: 264px;
+height: 10px;
+background: #63AD01;
+border-radius: 20px;
+
+      }
+      .line1{
+        /* Rectangle 7 */
+
+position: absolute;
+width: 264px;
+height: 10px;
+background: #ffd600;
+border-radius: 20px;
+left: 124px;
+      }
+      .tx{
+        position: absolute;
+        width: 114px;
+        /* height: 30px; */
+        left: 662px;
+      }
+.tx1{
+    /* WoundMend Service */
+position: absolute;
+width: 446px;
+height: 80px;
+left: 496px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 80px;
+/* identical to box height, or 200% */
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+color: #63AD01;
+}
+.tx2{
+    /* WoundMend helps you scan and detect all sorts of wounds for possible predictions */
+position: absolute;
+width: 514px;
+height: 60px;
+left: 462px;
+top: 270px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #777777;
+}
+.tx3{
+/* Step 1 */
+position: absolute;
+width: 133px;
+height: 56px;
+left: 133px;;
+top:400px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+color: #222222;
+}
+.text1{
+  /* Download the WoundMend mobile app, available both for Android and ioS platforms. */
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+flex-direction: row;
+position: absolute;
+width: 100%;
+height: 46px;
+left: 40px;
+top: 470px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #777777;
+}
+
+.text2{
+position: absolute;
+width: 334px;
+height: 46px;
+left: 20px;
+}
+.text3{
+/* Point your phone camera towards the concerned part of the skin. Our app will investigate your injury through the use of our qualified database and high-tech machine learning along with clinically validated algorithm. */
+position: absolute;
+width: 100%;
+height: 138px;
+left: 400px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 23px;
+/* or 164% */
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #777777;
+
+
+
+
+}
+.text4{
+  /* Wait for WoundMend to determine the type and nature of your wound for a whole list of predictions in no time. */
+
+position: absolute;
+width: 334px;
+height: 69px;
+left: 900px;
+}
+.tx5{
+  /* Step 1 */
+  position: absolute;
+  width: 133px;
+  height: 56px;
+  left: 133px;;
+  top:400px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #222222;
+  }
+.jk{
+  /* Why WoundMend? */
+
+position: absolute;
+width: 406px;
+height: 80px;
+top:100px;
+left: 852px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 80px;
+/* identical to box height, or 200% */
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+color: #63AD01;
+}
+.kj{
+position: absolute;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 23px;
+/* or 164% */
+letter-spacing: 0.03em;
+color: #777777;
+}

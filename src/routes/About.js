@@ -1,15 +1,9 @@
 import React from 'react'
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
-import Heroimage from '../Components/Heroimage';
-import Aboutcontact from '../Components/Aboutcontact';
-function About() {
+import Navbar from '../Components/Navbar'
+const About = () => {
   return (
     <div>
-      <Navbar/>,
-      <Heroimage Heading = " ABOUT." text = " I am Frindly Frontend Developer" />
-      <Aboutcontact/>,
-      <Footer/>,
+        <Navbar/>
     </div>
   )
 }

@@ -1,30 +1,77 @@
+
 .header{
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  /* woundmend 1 */
+
+position: absolute;
+width: 318px;
+height: 37px;
+left: 122px;
+top: 48px;
+}
+button {
+position: absolute;
+width: 110px;
+height: 38px;
+left: 1208px;
+top: 47px;
+background: #63AD01;
+border-radius: 6px;
+}
+.signup{
+  position: absolute;
+width: 110px;
+height: 38px;
+left: 1208px;
+top: 47px;
+background: #63AD01;
+border-radius: 6px;
+}
+
+button.logo:hover {
+  background: #ea6c0b;
+}
+.intro{
+  display: flex;
+  align-items: center;
+}
+.header{
+  /* background-color: #FBFBFB;  */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1em;
     position: sticky;
-    width: 100%;
-    height: 90px;
+    width: 115%;
+    height: 144px;
     font-size: large;
+
 }
 .menu {
   width: 100px;
     display: flex;
+  
 }
 .men:hover{
   
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
   }
-
-
 .menu li {
     padding: 0 1em ;
+  
 }
 .menu li a {
     font-weight: 500;
     font-size: 1.3em;
+}
+.hamburger{
+  
+  color: white;
+  
 }
 @media screen and ( max-width : 1084px ){
     .menu{
@@ -33,7 +80,7 @@
       align-items: center;
       width: 100%;
       height: 100vh;
-      background-color: black;
+      background-color: #fbfbfb;
       position: absolute;
       top:0;
       left:-100%;
@@ -51,7 +98,7 @@
     } 
     .hamburger{
       display: initial;
-      color: white;
+      color: black;
       position: absolute;
       top :2em;
       Right:1em;
