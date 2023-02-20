@@ -9,10 +9,6 @@ const Dynamiccard = (props) => {
     <h2 className='project-title'>  { props.title}</h2>
     <div className='pro-detail'>
         <p> {props.text }</p>
-        <div className='pro-btns'>
-            <NavLink to=  {props.veiw} className="btn"> Veiw</NavLink>
-            <NavLink to= " url.com" className="btn"> Source</NavLink>
-        </div>
 </div>
 </div>
 

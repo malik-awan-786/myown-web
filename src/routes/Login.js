@@ -1,52 +1,85 @@
-import React from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
+import './loginpage.css';
 import {
-  MDBContainer,
-  MDBInput,
-  MDBCheckbox,
   MDBBtn,
-  MDBIcon
-}
-from 'mdb-react-ui-kit';
-
+  MDBContainer,
+  MDBCard,
+  MDBCardBody,
+  MDBCardImage,
+  MDBRow,
+  MDBCol,
+  MDBIcon,
+  MDBInput,
+} from "mdb-react-ui-kit";
+import { Link } from 'react-router-dom'
+// import logo from "../images/logo.png";
+import Navbar from "../Components/Navbar";
+import Doctor from "../images/Doctor.png";
+import Footer from "../Components/Footer";
+// import { textAlign } from "@mui/system";
 function App() {
   return (
-    <MDBContainer className="p-3 my-5 d-flex flex-column w-50">
-
-      <MDBInput wrapperClass='mb-4' label='Email address' id='form1' type='email'/>
-      <MDBInput wrapperClass='mb-4' label='Password' id='form2' type='password'/>
-
-      <div className="d-flex justify-content-between mx-3 mb-4">
-        <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Remember me' />
-        <a href="!#">Forgot password?</a>
-      </div>
-
-      <MDBBtn className="mb-4">Sign in</MDBBtn>
-
-      <div className="text-center">
-        <p>Not a member? <a href="#!">Register</a></p>
-        <p>or sign up with:</p>
-
-        <div className='d-flex justify-content-between mx-auto' style={{width: '40%'}}>
-          <MDBBtn tag='a' color='none' className='m-1' style={{ color: '#1266f1' }}>
-            <MDBIcon fab icon='facebook-f' size="sm"/>
-          </MDBBtn>
-
-          <MDBBtn tag='a' color='none' className='m-1' style={{ color: '#1266f1' }}>
-            <MDBIcon fab icon='twitter' size="sm"/>
-          </MDBBtn>
-
-          <MDBBtn tag='a' color='none' className='m-1' style={{ color: '#1266f1' }}>
-            <MDBIcon fab icon='google' size="sm"/>
-          </MDBBtn>
-
-          <MDBBtn tag='a' color='none' className='m-1' style={{ color: '#1266f1' }}>
-            <MDBIcon fab icon='github' size="sm"/>
-          </MDBBtn>
-
+    <div>
+      <Navbar />,
+      <MDBContainer className="my-5">
+        <div className="container">
+          <MDBRow className="g-0">
+            <MDBCol md="6">
+              <MDBCardImage
+                src={Doctor}
+                alt="login form"
+                className="rounded-start w-100"
+              />
+            </MDBCol>
+            
+            <MDBCol className="loginpage"   md="6">
+              <MDBCardBody className="d-flex flex-column">
+                <div className="d-flex flex-row mt-2">
+                  <MDBIcon
+                    fas
+                    icon="cubes fa-3x me-3"
+                    style={{ color: "#ff6219" }}
+                  />
+              <h2 className="fw-bold mb-2 text-uppercase" class="text-center">Sign In </h2>
+              <p className="text-white-50 mb-5">Please enter your login and password!</p>
+                </div>
+                <MDBInput
+                  wrapperClass="mb-4"
+                  label="Email address"
+                  id="formControlLg"
+                  type="email"
+                  size="lg"
+                />
+                <MDBInput
+                  wrapperClass="mb-4"
+                  label="Password"
+                  id="formControlLg"
+                  type="password"
+                  size="lg"
+                />
+              <input class="btn btn-primary" type="button" value="Signin" />
+              <div class="text-center">
+                <a class="text-center"  href="#">Forgot password?</a>
+                <Link to="/Signup"  class="nav-link"> <p className='ms-5'>Don't have an account? <a href="" class="link-info">Register here</a></p> </Link>
+            
+                <div className="d-flex flex-row justify-content-start">
+                  <a href="#!" className="small text-muted me-1">
+                    Terms of use.
+                  </a>
+                  <a href="#" className="small text-muted">
+                    Privacy policy
+                  </a>
+                  </div>
+                </div>
+                 </MDBCardBody>
+            </MDBCol>
+            
+          </MDBRow>
         </div>
-      </div>
-
-    </MDBContainer>
+      </MDBContainer>
+      <Footer />,
+    </div>
   );
 }
 

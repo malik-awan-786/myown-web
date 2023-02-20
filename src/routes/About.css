@@ -1,0 +1,45 @@
+.aboutus{
+    /* 3333 1 */
+display: flex;
+justify-content: center;
+padding: 20px;
+gap: 10px;
+padding: 30px;
+margin-top: 10px;
+}
+.Newstext1{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 44px;
+/* or 111% */
+letter-spacing: 0.03em;
+text-transform: capitalize;
+color: #63AD01;
+}
+.line4{
+width: 140px;
+height: 8px;
+left: 122px;
+top: 557px;
+background: #FFD600;
+border-radius: 20px;
+}
+.img2{
+   display: flex;
+ padding: 40px;
+
+}
+.instant{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.03em;
+color: #777777;
+}

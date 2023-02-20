@@ -1,31 +1,68 @@
+
 import React from 'react'
-import './Footer.css'
-import {FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter, } from 'react-icons/fa'
+import './Footer.css';
+// import { FaBars, FaTimes} from 'react-icons/fa';
+import logo from "../images/logo.png";
+// import { Link } from 'react-router-dom'
+import play from "../images/play.png";
+import iphone from "../images/iphone.png";
+import {FaInstagram} from 'react-icons/fa';
+import {CiFacebook} from 'react-icons/ci';
 const Footer = () => {
   return (
-    
-    <div>
-      <footer className='container'>
-        <div className='left'>
-            <div className='location'>
-            <h4><FaHome size={20} style = {{color: "#fff", marginRight : "2rem" }}/></h4>
-                <div className='tk'>
-                  <h4><FaPhone  size={20} style = {{color: "#fff", marginRight : "9rem", marginLeft : "2rem"}}/></h4>
-             </div>
-             <div className=" tk">
-                  <h4><FaMailBulk size={20} style = {{color: "#fff", marginRight : "2rem" }}/> </h4>
-             </div>
-             </div>
-             </div>
-             <div className=" right">
-             <div className=" Social">
-             <FaFacebook size={20} style = {{color: "#fff", marginRight : "2rem" }}/>
-             <FaTwitter size={20} style = {{color: "#fff", marginRight : "2rem" }}/>
-             <FaLinkedin size={20} style = {{color: "#fff", marginRight : "2rem" }}/>
-             </div>
-             </div>
-        </footer>
+   
+       <footer className='footer' >
+        <div className='footer-container'>
+          <div className='footerstyle'>
+        <div className='picstyle1'>
+           <h1><img className="logo" src={logo}/></h1>
+          <div className='icons'>
+            <h1> <img src={play}/></h1>
+            <h1> <img src={iphone}/></h1>
+            </div>
+            </div>
+          <div className='company'>
+            <div >
+              <h1>
+              COMPANY
+              </h1>
+              <p>
+                About Us 
+              </p>
+              <p> Term and Consitions</p>
+              <p>
+              Privacy Policy
+              </p>
+            </div>
+            <div >
+              <h1>
+              SUPPORT
+              </h1>
+              <p>
+              FAQS
+              </p>
+              <p> Contact Us</p>
+              <p>
+              Instructions for use
+              </p>
+            </div>
+            <div >
+              <h1>
+              FOLLOW
+              </h1>
+              <p>
+              <div className='iconstyle'>
+              <CiFacebook/>
+              <FaInstagram/>
+              </div>
+              </p>
+            </div>
+            
         </div>
+        </div>
+     </div>
+    </footer>
+    
   )
 }
 

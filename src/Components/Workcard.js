@@ -6,7 +6,7 @@ const Workcard = () => {
   return (
     
     <div className='work-container'>
-        <h1 className='Project-headig'> PROJECT</h1>
+        <div className='Project-headig'> 
         <div className=' project-container'>
            {
            Workdata.map ((val )=> {
@@ -15,15 +15,16 @@ const Workcard = () => {
                 imgsrc={val.imgsrc}
                 title = {val.title}
                 text = {val.text}
-                veiw= {val.veiw}/ >
+               />
               );
             })
-           }
+          }
+          
            
             {/* <div className='project-card'>
                 <img className = " " src=  {card2}/>
             </div>  */}
-
+</div>
         </div>
     </div>
   )
